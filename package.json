@@ -1,0 +1,166 @@
+{
+  "author": "Danilo Toro - Rocketbot",
+  "description": "Pyautogui module on Rocketbot",
+  "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+  "version": "0.1",
+  "license": "MIT",
+  "homepage": "http://rocketbot.co",
+  "linux": true,
+  "windows": true,
+  "mac": true,
+  "docker": true,
+  "name": "autogui",
+  "dependencies": {
+    "pyautogui": "4.0.2"
+  },
+  "title": {
+    "en": "Auto GUI",
+    "es": "Auto GUI"
+  },
+  "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iTGF5ZXJfNSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjUxMnB4Ij48Zz48Zz48Zz48cGF0aCBkPSJtMTMgNDZoMzh2MTZoLTM4eiIgZmlsbD0iI2ZmZWFhNyIvPjwvZz48Zz48cGF0aCBkPSJtNDQgMjkuMmMwIC41My0uMDQgMS4wNi0uMTMgMS41OGwtLjAzLjItMS44NCAxMS4wMmgtMjBsLTEuODQtMTEuMDItLjAzLS4yYy0uMDktLjUyLS4xMy0xLjA1LS4xMy0xLjU4IDAtMi4wNi42Ni00LjA2IDEuODgtNS43MS4wMi0uMDIuMDMtLjA0LjA0LS4wNWwxLjA4LTEuNDRoMiAxNCAybDEuMDggMS40NGMuMDEuMDIuMDIuMDMuMDQuMDUgMS4yMiAxLjY1IDEuODggMy42NSAxLjg4IDUuNzF6IiBmaWxsPSIjZmNkNzcwIi8+PC9nPjxnPjxwYXRoIGQ9Im01OCAxNC40NnY0LjU0YzAgNS41Mi00LjQ4IDEwLTEwIDEwLS4xNyAwLS4zNC0uMDMtLjUtLjA3LjMyLS41Ny41LTEuMjMuNS0xLjkzIDAtLjY5LS4xOC0xLjM0LS40OS0xLjkxLjE5LS4wNi40LS4wOS42LS4wOSAzLjI1IDAgNS44OS0yLjY0IDUuODktNS44OXYtNC42NWMuNTkuMzQgMS4yNy41NCAyIC41NHMxLjQxLS4yIDItLjU0eiIgZmlsbD0iI2U2ZTllZCIvPjwvZz48Zz48cGF0aCBkPSJtMjIuMTEgNDUuMzRjLjMyLjIxLjU1LjQ5LjcuODItLjQ3LjItLjkuNDktMS4yOC44Ny0uNTUuNTQtLjkxIDEuMi0xLjA3IDEuOS0uMi0uMDYtLjM5LS4xNS0uNTctLjI3LS4yMy0uMTYtMS4wOC0xLjE4LTIuMS0yLjY3LS43OS0xLjEyLTEuNjctMi41Mi0yLjQ2LTMuOTktMS4yOC0yLjM4LTIuMzMtNC45OC0yLjMzLTcgMC0zIDEuNjgtNS44MiAzLjAyLTcuNTguMTYgMS41MiAxLjE3IDIuNzkgMi41NiAzLjMxLS44MSAxLjIzLTEuNTggMi43OS0xLjU4IDQuMjcgMCAxLjM1IDEuMjkgNC41IDIuNjcgNyAuODggMS41OCAxLjc5IDIuOTEgMi40NCAzLjM0eiIgZmlsbD0iI2U2ZTllZCIvPjwvZz48Zz48cGF0aCBkPSJtNDcuNSAyOC45M2MtLjY4IDEuMjQtMS45OSAyLjA3LTMuNSAyLjA3LS4wNiAwLS4xMS0uMDEtLjE2LS4wMmwuMDMtLjJjLjA5LS41Mi4xMy0xLjA1LjEzLTEuNTggMC0yLjA2LS42Ni00LjA2LTEuODgtNS43MS41Ni0uMyAxLjE5LS40OSAxLjg4LS40OSAxLjUyIDAgMi44My44NCAzLjUxIDIuMDkuMzEuNTcuNDkgMS4yMi40OSAxLjkxIDAgLjctLjE4IDEuMzYtLjUgMS45M3oiIGZpbGw9IiNjY2QxZDkiLz48L2c+PGc+PHBhdGggZD0ibTIwIDI5LjJjMCAuNTMuMDQgMS4wNi4xMyAxLjU4bC4wMy4yYy0uMDUuMDEtLjEuMDItLjE2LjAyLS41IDAtLjk4LS4wOS0xLjQyLS4yNy0xLjM5LS41Mi0yLjQtMS43OS0yLjU2LTMuMzEgMC0uMDEgMC0uMDEgMC0uMDEtLjAxLS4xNC0uMDItLjI3LS4wMi0uNDEgMC0yLjIxIDEuNzktNCA0LTQgLjY5IDAgMS4zMi4xOSAxLjg4LjQ5LTEuMjIgMS42NS0xLjg4IDMuNjUtMS44OCA1LjcxeiIgZmlsbD0iI2NjZDFkOSIvPjwvZz48Zz48cGF0aCBkPSJtNDAgMjh2NGMwIDEuMS0uOSAyLTIgMmgtMTJjLTEuMSAwLTItLjktMi0ydi00YzAtMS4xLjktMiAyLTJoMTJjMS4xIDAgMiAuOSAyIDJ6IiBmaWxsPSIjNjlkNmY0Ii8+PC9nPjxnPjxwYXRoIGQ9Im00NyAxMHY0YzAgMS4xLS45IDItMiAyaC0ydi04aDJjMS4xIDAgMiAuOSAyIDJ6IiBmaWxsPSIjZTZlOWVkIi8+PC9nPjxnPjxwYXRoIGQ9Im00MyAxNnYyYzAgMi4yMS0xLjc5IDQtNCA0aC0xNGMtMi4yMSAwLTQtMS43OS00LTR2LTItOC0yYzAtMi4yMSAxLjc5LTQgNC00aDJsMyA0aDRsMy00aDJjMi4yMSAwIDQgMS43OSA0IDR2MnoiIGZpbGw9IiNlNmU5ZWQiLz48L2c+PGc+PHBhdGggZD0ibTIxIDh2OGgtMmMtMS4xIDAtMi0uOS0yLTJ2LTRjMC0xLjEuOS0yIDItMnoiIGZpbGw9IiNlNmU5ZWQiLz48L2c+PGc+PHBhdGggZD0ibTM3IDItMyA0aC00bC0zLTR6IiBmaWxsPSIjYjRkZDdmIi8+PC9nPjxnPjxjaXJjbGUgY3g9IjM3IiBjeT0iMTAiIGZpbGw9IiM4MzhmOWIiIHI9IjIiLz48L2c+PGc+PGNpcmNsZSBjeD0iMjciIGN5PSIxMCIgZmlsbD0iIzgzOGY5YiIgcj0iMiIvPjwvZz48L2c+PGc+PHBhdGggZD0ibTYzIDQxaC0xOS44MmwxLjUxMi05LjA3YzEuMzQtLjE4OCAyLjUwNC0uOSAzLjI4NS0xLjkzMy4wMDggMCAuMDE1LjAwMy4wMjMuMDAzIDYuMDY1IDAgMTEtNC45MzUgMTEtMTF2LTQuMDI2YzEuMjA3LS45MTQgMi0yLjM0OCAyLTMuOTc0di0uMTYybC0xLjA1MS0zLjE1NC0xLjg5Ny42MzMuOTQ1IDIuODM0Yy0uMDggMS41ODQtMS4zOTMgMi44NDktMi45OTcgMi44NDlzLTIuOTE3LTEuMjY1LTIuOTk2LTIuODQ5bC45NDUtMi44MzQtMS44OTctLjYzMy0xLjA1MiAzLjE1NHYuMTYyYzAgMS42MjcuNzkzIDMuMDYxIDIgMy45NzR2NC4xMzdjMCAyLjY5Ni0yLjE5MyA0Ljg4OS00Ljg4OCA0Ljg4OS0uMDQzIDAtLjA4Ny4wMDgtLjEzLjAwOS0uOTEzLTEuMjEyLTIuMzUxLTIuMDA5LTMuOTgyLTIuMDA5LS41MjYgMC0xLjA0NC4wOTYtMS41NDkuMjY4bC0uMzA4LS40MTFjMS4xMjMtLjkxOCAxLjg1Ny0yLjI5NiAxLjg1Ny0zLjg1N3YtMWgxYzEuNjU0IDAgMy0xLjM0NiAzLTN2LTRjMC0xLjY1NC0xLjM0Ni0zLTMtM2gtMXYtMWMwLTIuNzU3LTIuMjQzLTUtNS01aC0xNGMtMi43NTcgMC01IDIuMjQzLTUgNXYxaC0xYy0xLjY1NCAwLTMgMS4zNDYtMyAzdjRjMCAxLjY1NCAxLjM0NiAzIDMgM2gxdjFjMCAxLjU2MS43MzQgMi45MzkgMS44NTggMy44NTdsLS4zMDguNDExYy0uNTA2LS4xNzItMS4wMjQtLjI2OC0xLjU1LS4yNjgtMi43NTcgMC01IDIuMjQzLTUgNSAwIC4wMzYuMDEuMDcuMDExLjEwNS0xLjQyNiAxLjk1LTMuMDExIDQuODAyLTMuMDExIDcuODk1IDAgMS43NzQuNzE0IDMuOTEzIDEuNjk1IDZoLTEyLjY5NXYyaDEzLjcxNmMuMzg0LjY5NC43ODMgMS4zNjggMS4xODEgMmgtMy44OTd2MThoNDB2LTE4aC0yNi41MTNjLS43NDgtLjE3My0xLjUyMi0uMTczLTIuMjcuMDAxLS4xNjYtLjE4NC0uMzQ0LS4zNTgtLjU1My0uNDk3LS4zMzItLjIyMS0uNzcyLS43NzQtMS4yNDctMS41MDRoNDEuNTgzem0tMTgtMzJjLjU1MSAwIDEgLjQ0OSAxIDF2NGMwIC41NTEtLjQ0OSAxLTEgMWgtMXYtNnptLTI2IDZjLS41NTEgMC0xLS40NDktMS0xdi00YzAtLjU1MS40NDktMSAxLTFoMXY2em0zNiA0LjExMnYtMy4yMTNjLjMyMy4wNjYuNjU4LjEwMSAxIC4xMDFzLjY3Ny0uMDM1IDEtLjEwMXYzLjEwMWMwIDQuNjU3LTMuNTU3IDguNDk5LTguMDk2IDguOTU0LjA2LS4zMDkuMDk2LS42MjcuMDk2LS45NTQgMC0uMzU5LS4wNDItLjcwOC0uMTE0LTEuMDQ2IDMuNDM1LS4zODcgNi4xMTQtMy4zMDYgNi4xMTQtNi44NDJ6bS04IDcuODg4YzAgMS4zMjItLjg2NCAyLjQzMy0yLjAyNiAyLjgzMy4wMTItLjIxLjAyNi0uNDE5LjAyNi0uNjI4IDAtMS44MDEtLjQ3Ny0zLjU4Ny0xLjM0OC01LjE1OS4xMTYtLjAxNS4yMzEtLjA0Ni4zNDgtLjA0NiAxLjY1NCAwIDMgMS4zNDYgMyAzem0tMTItMjQtMS41IDJoLTNsLTEuNS0yem0tMTMgM2MwLTEuNjU0IDEuMzQ2LTMgMy0zaDEuNWwzIDRoNWwzLTRoMS41YzEuNjU0IDAgMyAxLjM0NiAzIDN2MTJjMCAxLjY1NC0xLjM0NiAzLTMgM2gtMTRjLTEuNjU0IDAtMy0xLjM0Ni0zLTN6bTE3IDE3aDEuNWwuNzc3IDEuMDM3Yy4wMTIuMDE2LjAyMi4wMzMuMDMzLjA0OWwuMDA1LjAwN2MxLjA4NiAxLjQ3MiAxLjY4NSAzLjI4MyAxLjY4NSA1LjExMiAwIC40NzItLjA0Ljk0OC0uMTE3IDEuNDE2bC0xLjczIDEwLjM3OWgtMTguMzA2bC0xLjczLTEwLjM3OWMtLjA3Ny0uNDY4LS4xMTctLjk0NC0uMTE3LTEuNDE2IDAtMS41ODcuNDUyLTMuMTYgMS4yOC00LjUxbC40NTEtLjY2OS43NjktMS4wMjZoMS41em0tMTkgMWMuMTE3IDAgLjIzMi4wMzEuMzQ5LjA0Ni0uODcyIDEuNTcyLTEuMzQ5IDMuMzU3LTEuMzQ5IDUuMTU5IDAgLjIwNi4wMTQuNDEzLjAyNi42MTktMS4xNzUtLjQwNy0yLjAyNi0xLjUxMy0yLjAyNi0yLjgyNCAwLTEuNjU0IDEuMzQ2LTMgMy0zem02LjM2NiAyMy42MjggMS4zMzYgMi42NzMgMS4yOTgtLjY0OXYxLjM0OGgydi0yaC0xLjcxMmwtMS0yaDIxLjcxMnYxNGgtMzZ2LTE0aDMuMjQxYy42MjIuODcgMS4xNzIgMS41NTggMS41NzcgMmgtMS44MTh2Mmgydi0xLjgwNmMuMTM0LjEzNi4yNTIuMjQ2LjMzNC4zMDEuMDE3LjAxMS4wMzYuMDE5LjA1My4wMy0uMDkxIDEuMzg4LjM3MiAyLjgwNiAxLjQzIDMuODY1bC4xMTUuMTE1IDIuOTc0IDEuNDg3Ljg5NS0xLjc4OS0yLjY3My0xLjMzNmMtMS4wNjQtMS4xNzYtMS4wMy0zIC4xMDQtNC4xMzQgMS4xMzQtMS4xMzUgMi45NTgtMS4xNjkgNC4xMzQtLjEwNXptLTUuNTQ4LTEuMzFjLS4zMTguMzE4LS41NjUuNjc3LS43OCAxLjA1LTEuNTc4LTEuOTA0LTYuMDM4LTguNDI2LTYuMDM4LTEyLjM2OCAwLTEuOTU4LjgxMS0zLjg1NSAxLjc0OC01LjQwMy4zNzEuNjA2Ljg1NSAxLjEzNCAxLjQ0MSAxLjUzNC0uNzc2IDEuMzk2LTEuMTg5IDIuNjk4LTEuMTg5IDMuODY5IDAgMi40NjQgMy4zMDYgOS4yMTcgNS4yNzggMTAuOTQzLS4xNTYuMTIyLS4zMTcuMjMyLS40Ni4zNzV6bS0yLjgxOC0xMS4zMThjMC0uODY4LjM3NC0xLjkzMyAxLjA0OS0zLjA5Ni4wODQuMDE2LjE3NC4wMTQuMjU5LjAyNmwxLjUxMiA5LjA3aC0uNTYyYy0xLjE4MS0yLjI0NC0yLjI1OC00LjkwMy0yLjI1OC02eiIvPjxwYXRoIGQ9Im0xNyA1N2gydjJoLTJ6Ii8+PHBhdGggZD0ibTIxIDU3aDJ2MmgtMnoiLz48cGF0aCBkPSJtNDEgNTdoMnYyaC0yeiIvPjxwYXRoIGQ9Im0zNyA1N2gydjJoLTJ6Ii8+PHBhdGggZD0ibTI5IDU3aDJ2MmgtMnoiLz48cGF0aCBkPSJtMjUgNTdoMnYyaC0yeiIvPjxwYXRoIGQ9Im0zMyA1N2gydjJoLTJ6Ii8+PHBhdGggZD0ibTQ1IDU3aDJ2MmgtMnoiLz48cGF0aCBkPSJtMTcgNTNoMnYyaC0yeiIvPjxwYXRoIGQ9Im0yOSA1M2gydjJoLTJ6Ii8+PHBhdGggZD0ibTI1IDUzaDJ2MmgtMnoiLz48cGF0aCBkPSJtNDUgNTNoMnYyaC0yeiIvPjxwYXRoIGQ9Im0zNyA1M2gydjJoLTJ6Ii8+PHBhdGggZD0ibTMzIDUzaDJ2MmgtMnoiLz48cGF0aCBkPSJtNDEgNTNoMnYyaC0yeiIvPjxwYXRoIGQ9Im0zMyA0OWgydjJoLTJ6Ii8+PHBhdGggZD0ibTQxIDQ5aDJ2MmgtMnoiLz48cGF0aCBkPSJtMzcgNDloMnYyaC0yeiIvPjxwYXRoIGQ9Im00NSA0OWgydjJoLTJ6Ii8+PHBhdGggZD0ibTM3IDEzYzEuNjU0IDAgMy0xLjM0NiAzLTNzLTEuMzQ2LTMtMy0zLTMgMS4zNDYtMyAzIDEuMzQ2IDMgMyAzem0wLTRjLjU1MSAwIDEgLjQ0OSAxIDFzLS40NDkgMS0xIDEtMS0uNDQ5LTEtMSAuNDQ5LTEgMS0xeiIvPjxwYXRoIGQ9Im0yNyAxM2MxLjY1NCAwIDMtMS4zNDYgMy0zcy0xLjM0Ni0zLTMtMy0zIDEuMzQ2LTMgMyAxLjM0NiAzIDMgM3ptMC00Yy41NTEgMCAxIC40NDkgMSAxcy0uNDQ5IDEtMSAxLTEtLjQ0OS0xLTEgLjQ0OS0xIDEtMXoiLz48cGF0aCBkPSJtMzUuOTczIDE3LTcuOTczLS4wMjd2LTEuOTczaC0ydjEuOTczYzAgMS4xMTcuOTEgMi4wMjcgMi4wMjcgMi4wMjdoNy45NDVjMS4xMTggMCAyLjAyOC0uOTEgMi4wMjgtMi4wMjd2LTEuOTczaC0yeiIvPjxwYXRoIGQ9Im0yMyAzMmMwIDEuNjU0IDEuMzQ2IDMgMyAzaDEyYzEuNjU0IDAgMy0xLjM0NiAzLTN2LTRjMC0xLjY1NC0xLjM0Ni0zLTMtM2gtMTJjLTEuNjU0IDAtMyAxLjM0Ni0zIDN6bTItNGMwLS41NTEuNDQ5LTEgMS0xaDEyYy41NTEgMCAxIC40NDkgMSAxdjRjMCAuNTUxLS40NDkgMS0xIDFoLTEyYy0uNTUxIDAtMS0uNDQ5LTEtMXoiLz48cGF0aCBkPSJtMzcgMzdoMnYyaC0yeiIvPjxwYXRoIGQ9Im0zMyAzN2gydjJoLTJ6Ii8+PHBhdGggZD0ibTI1IDM3aDJ2MmgtMnoiLz48cGF0aCBkPSJtMjkgMzdoMnYyaC0yeiIvPjwvZz48L2c+PC9zdmc+Cg==",
+  "children": [
+    {
+      "es": {
+        "title": "Click",
+        "description": "Comando para hacer click por imagen, coordenadas o en la posición actual del mouse",
+        "title_options": null,
+        "options": null
+      },
+      "en": {
+        "title": "Click",
+        "description": "Command to click by image, coordinates or at the current mouse position",
+        "title_options": null,
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "input",
+            "title": {
+              "es": "Coordenadas: ",
+              "en": "Coordinates: "
+            },
+            "placeholder": {
+              "es": "150,310",
+              "en": "150,310"
+            },
+            "id": "coord",
+            "css": "col-md-6"
+          },
+          {
+            "type": "select",
+            "title": {
+              "es": "Tipo: ",
+              "en": "Type: "
+            },
+            "options": [
+              {
+                "title": "Click Simple",
+                "value": "simple"
+              },
+              {
+                "title": "Click Doble",
+                "value": "doble"
+              }
+            ],
+            "id": "type",
+            "css": "col-md-6"
+          },
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "C:/Users/Usuario/Folder/file.png",
+              "en": "C:/Users/Name/Folder/file.png"
+            },
+            "title": {
+              "es": "Ruta de la imagen: ",
+              "en": "Image path:  "
+            },
+            "id": "path",
+            "css": "col-md-12"
+          }
+        ]
+      },
+      "video_youtube": "",
+      "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMjEuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxwYXRoIGQ9Ik01MDcuNjA2LDQyMi43NTRsLTg2LjUwOC04Ni41MDhsNDIuNDI3LTQyLjQyNmMzLjY3Ni0zLjY3Niw1LjE4Ny04Ljk5MywzLjk5Mi0xNC4wNTNzLTQuOTIzLTkuMTQtOS44NTUtMTAuNzg0ICAgTDIwMy4xMDQsMTg0LjEzYy01LjM4OS0xLjc5Ny0xMS4zMzMtMC4zOTQtMTUuMzUsMy42MjRjLTQuMDE4LDQuMDE4LTUuNDIxLDkuOTYtMy42MjQsMTUuMzVsODQuODUzLDI1NC41NTkgICBjMS42NDUsNC45MzIsNS43MjUsOC42NjEsMTAuNzg0LDkuODU1YzUuMDU5LDEuMTk3LDEwLjM3Ny0wLjMxNSwxNC4wNTMtMy45OTJsNDIuNDI3LTQyLjQyNmw4Ni41MDgsODYuNTA3ICAgYzIuOTI5LDIuOTI5LDYuNzY4LDQuMzk0LDEwLjYwNiw0LjM5NHM3LjY3OC0xLjQ2NCwxMC42MDYtNC4zOTRsNjMuNjQtNjMuNjRDNTEzLjQ2NSw0MzguMTA5LDUxMy40NjUsNDI4LjYxMiw1MDcuNjA2LDQyMi43NTR6ICAgIE00MzMuMzYsNDc1Ljc4N2wtODYuNTA4LTg2LjUwN2MtNS44NTctNS44NTgtMTUuMzU2LTUuODU4LTIxLjIxMywwbC0zNS44NzEsMzUuODcxbC02Ny42OTEtMjAzLjA3M2wyMDMuMDczLDY3LjY5MSAgIGwtMzUuODcxLDM1Ljg3MWMtNS44NTMsNS44NTItNS44NTgsMTUuMzU2LDAsMjEuMjEzbDg2LjUwOCw4Ni41MDhMNDMzLjM2LDQ3NS43ODd6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNMTk1LDEyMGM4LjI4NCwwLDE1LTYuNzE2LDE1LTE1VjE1YzAtOC4yODQtNi43MTYtMTUtMTUtMTVzLTE1LDYuNzE2LTE1LDE1djkwQzE4MCwxMTMuMjg0LDE4Ni43MTYsMTIwLDE5NSwxMjB6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNNzguMzI3LDU3LjExNGMtNS44NTctNS44NTgtMTUuMzU1LTUuODU4LTIxLjIxMywwYy01Ljg1OCw1Ljg1OC01Ljg1OCwxNS4zNTUsMCwyMS4yMTNsNjMuNjQsNjMuNjQgICBjNS44NTcsNS44NTgsMTUuMzU2LDUuODU4LDIxLjIxMywwYzUuODU4LTUuODU4LDUuODU4LTE1LjM1NSwwLTIxLjIxM0w3OC4zMjcsNTcuMTE0eiIgZmlsbD0iIzAwMDAwMCIvPgoJPHBhdGggZD0iTTEyMC43NTQsMjQ4LjAzM2wtNjMuNjQsNjMuNjRjLTUuODU4LDUuODU4LTUuODU4LDE1LjM1NSwwLDIxLjIxM2M1Ljg1Nyw1Ljg1OCwxNS4zNTYsNS44NTgsMjEuMjEzLDBsNjMuNjQtNjMuNjQgICBjNS44NTgtNS44NTgsNS44NTgtMTUuMzU1LDAtMjEuMjEzQzEzNi4xMDksMjQyLjE3NSwxMjYuNjExLDI0Mi4xNzUsMTIwLjc1NCwyNDguMDMzeiIgZmlsbD0iIzAwMDAwMCIvPgoJPHBhdGggZD0iTTI2OS4yNDYsMTQxLjk2N2w2My42NC02My42NGM1Ljg1OC01Ljg1OCw1Ljg1OC0xNS4zNTUsMC0yMS4yMTNjLTUuODU3LTUuODU4LTE1LjM1NS01Ljg1OC0yMS4yMTMsMGwtNjMuNjQsNjMuNjQgICBjLTUuODU4LDUuODU4LTUuODU4LDE1LjM1NSwwLDIxLjIxM0MyNTMuODksMTQ3LjgyNSwyNjMuMzg5LDE0Ny44MjUsMjY5LjI0NiwxNDEuOTY3eiIgZmlsbD0iIzAwMDAwMCIvPgoJPHBhdGggZD0iTTEyMCwxOTVjMC04LjI4NC02LjcxNi0xNS0xNS0xNUgxNWMtOC4yODQsMC0xNSw2LjcxNi0xNSwxNXM2LjcxNiwxNSwxNSwxNWg5MEMxMTMuMjg0LDIxMCwxMjAsMjAzLjI4NCwxMjAsMTk1eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CgoKCgoKCgoKCgoKCgoKCjwvc3ZnPgo=",
+      "module": "click",
+      "module_name": "autogui",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": true
+    },
+    {
+      "es": {
+        "title": "Enviar tecla",
+        "description": "keyDown, keyUp y press método pyautogui",
+        "title_options": null,
+        "options": null
+      },
+      "en": {
+        "title": "Send key",
+        "description": "keyDown, keyUp and press pyautogui method",
+        "title_options": null,
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "input",
+            "title": {
+              "es": "Tecla o texto: ",
+              "en": "Key or text: "
+            },
+            "placeholder": {
+              "es": "Lorem ipsum",
+              "en": "Lorem  ipsum"
+            },
+            "id": "key",
+            "css": "col-md-6"
+          },
+          {
+            "type": "select",
+            "title": {
+              "es": "Tipo: ",
+              "en": "Type: "
+            },
+            "options": [
+              {
+                "title": "Press",
+                "value": "press"
+              },
+              {
+                "title": "KeyDown",
+                "value": "keyDown"
+              },
+              {
+                "title": "KeyUp",
+                "value": "keyUp"
+              }
+            ],
+            "id": "type",
+            "css": "col-md-6"
+          }
+        ]
+      },
+      "video_youtube": "",
+      "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4Ij48Zz48cGF0aCBkPSJtNDQ2IDM5MXYtMTIwYzAtNS41MjItNC40NzctMTAtMTAtMTBoLTM2MGMtNS41MjMgMC0xMCA0LjQ3OC0xMCAxMHYxMjBjMCA1LjUyMiA0LjQ3NyAxMCAxMCAxMGgzNjBjNS41MjMgMCAxMC00LjQ3OCAxMC0xMHptLTI0MC0xMTBoNDB2NDBoLTQwem0tNjAgMGg0MHY0MGgtNDB6bS0yMCAxMDBoLTQwdi00MGg0MHptMC02MGgtNDB2LTQwaDQwem0xODAgNjBoLTE2MHYtNDBoMTYwem0wLTYwaC00MHYtNDBoNDB6bTYwIDYwaC00MHYtNDBoNDB6bTAtNjBoLTQwdi00MGg0MHptNjAgNjBoLTQwdi00MGg0MHptMC02MGgtNDB2LTQwaDQweiIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im01MDIgMjAxaC0yMzZ2LTIwYzAtMTEuMDI4IDguOTcyLTIwIDIwLTIwaDYwYzIyLjA5NyAwIDQwLTE3Ljg5OCA0MC00MCAwLTIyLjA1Ni0xNy45NDQtNDAtNDAtNDBoLTE4MGMtMTEuMDI4IDAtMjAtOC45NzItMjAtMjAgMC01LjUyMi00LjQ3Ny0xMC0xMC0xMHMtMTAgNC40NzgtMTAgMTBjMCAyMi4wNTYgMTcuOTQ0IDQwIDQwIDQwaDE4MGMxMS4wMjggMCAyMCA4Ljk3MiAyMCAyMCAwIDExLjA0NS04Ljk1NCAyMC0yMCAyMGgtNjBjLTIyLjA1NiAwLTQwIDE3Ljk0NC00MCA0MHYyMGgtMjM2Yy01LjUyMyAwLTEwIDQuNDc4LTEwIDEwdjI0MGMwIDUuNTIyIDQuNDc3IDEwIDEwIDEwaDIwMWM1LjUyMyAwIDEwLTQuNDc4IDEwLTEwcy00LjQ3Ny0xMC0xMC0xMGgtMTkxdi0yMjBoNDcydjIyMGgtMTkxYy01LjUyMyAwLTEwIDQuNDc4LTEwIDEwczQuNDc3IDEwIDEwIDEwaDIwMWM1LjUyMyAwIDEwLTQuNDc4IDEwLTEwdi0yNDBjMC01LjUyMy00LjQ3Ny0xMC0xMC0xMHoiIGZpbGw9IiMwMDAwMDAiLz48Y2lyY2xlIGN4PSIyNTYiIGN5PSI0NTEiIHI9IjEwIiBmaWxsPSIjMDAwMDAwIi8+PC9nPjwvc3ZnPgo=",
+      "module": "keyboard",
+      "module_name": "autogui",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": true
+    }
+  ]
+}
