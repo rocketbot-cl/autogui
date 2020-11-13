@@ -26,12 +26,14 @@ Para instalar librerias se debe ingresar por terminal a la carpeta "libs"
 
 import sys
 import os
+
 base_path = tmp_global_obj["basepath"]
 cur_path = base_path + 'modules' + os.sep + 'autogui' + os.sep + 'libs' + os.sep
 sys.path.append(cur_path)
 
 import pyautogui
 from ctypes import *
+
 """
     Obtengo el modulo que fueron invocados
 """
@@ -51,8 +53,8 @@ if module == "click":
 
         if coord:
             x, y = eval(coord)
-            pyautogui.doubleClick(x,y)
-            print(x,y)
+            pyautogui.doubleClick(x, y)
+            print(x, y)
             click[type_](x, y)
         elif path:
             click[type_](path)
