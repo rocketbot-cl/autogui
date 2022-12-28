@@ -2,11 +2,11 @@
   
 Pyautogui module on Rocketbot  
 
-*Read this in other languages: [English](README.md), [Español](README.es.md).*
+*Read this in other languages: [English](README.md), [Spanish](README.es.md).*
 
-## How to install this module
+## Como instalar este módulo
   
-__Download__ and __install__ the content in 'modules' folder in Rocketbot path  
+__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de Rocketbot.  
 
 
 
@@ -14,10 +14,10 @@ __Download__ and __install__ the content in 'modules' folder in Rocketbot path
 
 
 1. Click  
-Command to click by image, coordinates or at the current mouse position
+Comando para hacer click por imagen, coordenadas o en la posición actual del mouse
 
-2. Send key  
-keyDown, keyUp and press pyautogui method  
+2. Enviar tecla  
+keyDown, keyUp y press método pyautogui  
 
 
 
