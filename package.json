@@ -2,7 +2,7 @@
   "author": "Danilo Toro - Rocketbot",
   "description": "Pyautogui module on Rocketbot",
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "homepage": "http://rocketbot.co",
   "linux": true,
@@ -41,6 +41,10 @@
               "es": "Coordenadas: ",
               "en": "Coordinates: "
             },
+            "description": {
+              "es": "Coordenadas donde se hará click",
+              "en": "Coordinates where the click will be made"
+            },
             "placeholder": {
               "es": "150,310",
               "en": "150,310"
@@ -54,13 +58,21 @@
               "es": "Tipo: ",
               "en": "Type: "
             },
+            "description": {
+              "es": "Tipo de click",
+              "en": "Click type"
+            },
+            "placeholder": {
+              "es": "Simple Click",
+              "en": "Simple Click"
+            },
             "options": [
               {
-                "title": "Click Simple",
+                "title": "Simple Click",
                 "value": "simple"
               },
               {
-                "title": "Click Doble",
+                "title": "Double Click",
                 "value": "double"
               }
             ],
@@ -76,6 +88,10 @@
             "title": {
               "es": "Ruta de la imagen: ",
               "en": "Image path:  "
+            },
+            "description": {
+              "es": "Ruta de la imagen donde se hará click",
+              "en": "Image path where the click will be made"
             },
             "id": "path",
             "css": "col-md-12"
@@ -117,9 +133,13 @@
               "es": "Tecla o texto: ",
               "en": "Key or text: "
             },
+            "description": {
+                "es": "Tecla o texto a enviar",
+                "en": "Key or text to send"
+            },
             "placeholder": {
               "es": "Lorem ipsum",
-              "en": "Lorem  ipsum"
+              "en": "Lorem ipsum"
             },
             "id": "key",
             "css": "col-md-6"
@@ -129,6 +149,14 @@
             "title": {
               "es": "Tipo: ",
               "en": "Type: "
+            },
+            "description": {
+                "es": "Acción a realizar con la tecla o texto",
+                "en": "Action to perform with the key or text"
+            },
+            "placeholder": {
+              "es": "Press",
+              "en": "Press"
             },
             "options": [
               {
